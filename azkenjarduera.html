@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Joseba Huegun - DJ</title>
 
-<!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
@@ -16,6 +15,11 @@ background:#f5f5f5;
 
 .card{
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-img-top{
+height:250px;
+object-fit:cover;
 }
 
 .carousel-img{
@@ -47,7 +51,7 @@ object-fit:cover;
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">Niri buruz</a>
+<a class="nav-link" href="#about">Niri buruz</a>
 </li>
 
 <li class="nav-item dropdown">
@@ -104,9 +108,9 @@ Kontaktua
 
 <div class="row">
 
-<div class="col-md-6 mb-4">
+<div class="col-md-4 mb-4">
 
-<div class="card">
+<div class="card h-100">
 
 <img src="https://media.gq.com.mx/photos/606328db40c44aa45469e2b0/16:9/w_2560%2Cc_limit/deadmau5.jpg" class="card-img-top">
 
@@ -123,9 +127,9 @@ Kontaktua
 </div>
 </div>
 
-<div class="col-md-6 mb-4">
+<div class="col-md-4 mb-4">
 
-<div class="card">
+<div class="card h-100">
 
 <img src="https://cdn.prod.website-files.com/655e0fa544c67c1ee5ce01c7/65afa9c723261f73e2f2b759_oWOFcOGDKFiKECC6XBFkxCgs8hwhVsjacrL36hESUu2wMlIq6nWZq7z47x3C43IqvYlt9s4GNYmUolMbkV-HOH4MZ7avB5tx3umxcP7sciTOTHXNTKi9Bpt8SP6FW02D7DkjeNP9gtGFCjk-37v6AzM.jpeg" class="card-img-top">
 
@@ -137,16 +141,100 @@ Kontaktua
 Kaixo, ni Joseba Huegun naiz. DJ eta kantautore moduan lanean aritzen naiz. Musika sortzea eta publikoarekin konektatzea gustatzen zait.
 </p>
 
-<a href="#" class="btn btn-primary">Nire ibilbidea</a>
+<a href="#about" class="btn btn-primary">Gehiago jakin</a>
+
+</div>
+
+</div>
+</div>
+
+<div class="col-md-4 mb-4">
+
+<div class="card h-100">
+
+<img src="https://images.xceed.me/blog/wp-content/uploads/2023/09/26172907/techno-bcn-1.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Nire estiloa</h5>
+
+<p class="card-text">
+Techno, house eta elektronika estiloak nahasten ditut publikoari esperientzia energetiko eta dibertigarria eskaintzeko.
+</p>
+
+<a href="#" class="btn btn-outline-primary">Musika entzun</a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- NIRI BURUZ -->
+
+<section id="about" class="container my-5">
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<img src="https://images.xceed.me/blog/wp-content/uploads/2023/09/26172907/techno-bcn-1.jpg" class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-6">
+
+<h2>Niri buruz</h2>
+
+<p>
+Kaixo! Joseba Huegun naiz, DJ eta kantautore moduan aritzen naiz.
+Musika elektronikoarekin lan egitea gustatzen zait, batez ere techno,
+house eta elektronika estiloetan.
+</p>
+
+<p>
+Urte askotan zehar hainbat ekitalditan eta klubetan aritu naiz
+publikoari esperientzia energetikoa eta dibertigarria eskaintzen.
+Musika nire pasioa da eta beti saiatzen naiz estilo berriak
+probatu eta publikoarekin konektatzen.
+</p>
+
+<a href="#carouselExample" class="btn btn-primary">Nire lanak ikusi</a>
 
 </div>
 
 </div>
 
+</section>
+
+<!-- ZER ESKAINTZEN DUT -->
+
+<section class="container my-5 text-center">
+
+<h2 class="mb-4">Zer eskaintzen dut</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+<h4>DJ Setak</h4>
+<p>Klub, jaialdi eta ekitaldietarako DJ saio profesionalak.</p>
+</div>
+
+<div class="col-md-4">
+<h4>Musika Produkzioa</h4>
+<p>Musika elektronikoaren ekoizpena eta remixak.</p>
+</div>
+
+<div class="col-md-4">
+<h4>Ekitaldiak</h4>
+<p>Festak, ekitaldi pribatuak eta zuzeneko emanaldiak.</p>
 </div>
 
 </div>
-</div>
+
+</section>
 
 <!-- CARRUSELA -->
 
@@ -182,82 +270,56 @@ Kaixo, ni Joseba Huegun naiz. DJ eta kantautore moduan lanean aritzen naiz. Musi
 
 </div>
 
-<!-- MODAL 1 -->
+<!-- MODALS -->
 
 <div class="modal fade" id="modal1">
-
 <div class="modal-dialog">
-
 <div class="modal-content">
-
 <div class="modal-header">
 <h5 class="modal-title">Nire esperientzia</h5>
 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 </div>
-
 <div class="modal-body">
 <p>Urte askotan zehar DJ moduan lanean aritu naiz festetan, klubetan eta ekitaldi pribatuetan.</p>
 </div>
-
-<div class="modal-footer">
-<button class="btn btn-secondary" data-bs-dismiss="modal">Itxi</button>
-</div>
-
 </div>
 </div>
 </div>
-
-<!-- MODAL 2 -->
 
 <div class="modal fade" id="modal2">
-
 <div class="modal-dialog">
-
 <div class="modal-content">
-
 <div class="modal-header">
 <h5 class="modal-title">Proiektuak</h5>
 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 </div>
-
 <div class="modal-body">
 <p>Musika proiektu desberdinetan parte hartu dut eta hainbat ekitalditan DJ bezala aritu naiz.</p>
 </div>
-
-<div class="modal-footer">
-<button class="btn btn-secondary" data-bs-dismiss="modal">Itxi</button>
-</div>
-
 </div>
 </div>
 </div>
-
-<!-- MODAL 3 -->
 
 <div class="modal fade" id="modal3">
-
 <div class="modal-dialog">
-
 <div class="modal-content">
-
 <div class="modal-header">
 <h5 class="modal-title">Kontaktua</h5>
 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 </div>
-
 <div class="modal-body">
-<p>Kontaktatzeko: josebahuegun@email.com</p>
+<p>Emaila: djhuegun@gmail.com</p>
 </div>
-
-<div class="modal-footer">
-<button class="btn btn-secondary" data-bs-dismiss="modal">Itxi</button>
-</div>
-
 </div>
 </div>
 </div>
 
-<!-- Bootstrap JS -->
+<!-- FOOTER -->
+
+<footer class="bg-dark text-white text-center p-4 mt-5">
+<p>© 2025 Joseba Huegun DJ</p>
+<p>Instagram · Spotify · YouTube</p>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
